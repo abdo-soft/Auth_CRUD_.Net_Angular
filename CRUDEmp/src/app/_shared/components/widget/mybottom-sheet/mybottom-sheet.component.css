@@ -1,0 +1,11 @@
+>>>.mat-bottom-sheet-container-large {
+    min-width: calc(512px + 400px);
+    max-height: 100%;
+    height: 300px;   
+}
+
+>>>.mat-bottom-sheet-container-medium {
+    min-width: calc(384px + 400px);
+    max-height: 100%;
+    height: 300px;
+}
