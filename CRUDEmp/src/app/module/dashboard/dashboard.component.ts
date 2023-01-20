@@ -25,13 +25,15 @@ export class DashboardComponent implements OnInit {
   loadEmployee() {
     this.empService.getAll().pipe(first())
       .subscribe(d => {
+        console.log("Employee Load",d)
         this.employees = d;
         this.totalrow = d.length;
       });
   }
 
   delete(emp: Emp) {
-    this.empService.delete(emp.empId).pipe(first())
+    console.log("Employee delete",emp)
+    this.empService.delete(emp.EmpId).pipe(first())
       .subscribe(() => {
         this.loadEmployee();
       })

@@ -35,11 +35,11 @@ export class AddeditComponent implements OnInit {
     }
 
     this.formadd = this.formBuilder.group({
-      empId: 0,
-      firstName: ['', Validators.required],
-      lastName: ['', Validators.required],
-      email: ['', Validators.required],
-      phoneNumber: ['', Validators.required]
+      EmpId: 0,
+      FirstName: ['', Validators.required],
+      LastName: ['', Validators.required],
+      Email: ['', Validators.required],
+      PhoneNumber: ['', Validators.required]
     });
   }
 

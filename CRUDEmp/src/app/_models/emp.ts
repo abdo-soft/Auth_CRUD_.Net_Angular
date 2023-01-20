@@ -1,7 +1,7 @@
 export class Emp {
-    empId!: number;
-    firstName!: string;
-    lastName!: string;
-    email!: string;
-    phoneNumber!: string;
+    EmpId!: number;
+    FirstName!: string;
+    LastName!: string;
+    Email!: string;
+    PhoneNumber!: string;
 }

@@ -24,12 +24,12 @@
                   </thead>
                   <tbody>
                       <tr *ngFor="let emp of employees">
-                          <td>{{emp.firstName}}</td>
-                          <td>{{emp.lastName}}</td>
-                          <td>{{emp.email}}</td>
-                          <td>{{emp.phoneNumber}}</td>
+                          <td>{{emp.FirstName}}</td>
+                          <td>{{emp.LastName}}</td>
+                          <td>{{emp.Email}}</td>
+                          <td>{{emp.PhoneNumber}}</td>
                           <td class="white-space-nowrap">
-                              <a routerLink="/employee/edit/{{emp.empId}}" class="btn btn-outline-success" placement="bottom" ngbTooltip="Edit"><i
+                              <a routerLink="/employee/edit/{{emp.EmpId}}" class="btn btn-outline-success" placement="bottom" ngbTooltip="Edit"><i
                                       class="bi bi-pencil"></i></a>
                               <button (click)="delete(emp)" class="btn btn-outline-danger" placement="bottom" ngbTooltip="Delete"><i
                                       class="bi bi-trash"></i></button>
